@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope">
+      <p>Letter for Nia</p>
+    </div>
+
+    <div id="letter-container">
+      <div class="letter-window">
+         <h1 id="letter-title">Will you be my Valentine?</h1>
+
+         <img src="cat_heart.gif" class="cat" id="letter-cat">
+
+         <div class="buttons" id="letter-buttons">
+            <img src="yes.png" class="btn yes-btn" alt="yes button">
+
+            <div class="no-wrapper">
+               <img src="no.png" class="btn no-btn" alt="no button">
+            </div>
+         </div>
+         
+         <div id="scratch-card" class="scratch-card" style="display: none;">
+            <p class="scratch-instruction">Scratch to reveal our date plan</p>
+            <div class="scratch-surface">
+               <div class="scratch-reveal" id="scratch-reveal">
+                  <strong>Valentine Date: Homemade pasta dinner</strong>
+               </div>
+               <canvas id="scratch-canvas"></canvas>
+            </div>
+         </div>
+
+      </div>
+
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
