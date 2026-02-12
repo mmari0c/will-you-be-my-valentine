@@ -203,7 +203,6 @@ p {
 
 @media (max-width: 430px) {
    body {
-      align-items: flex-start;
       padding-top: 18px;
       box-sizing: border-box;
    }
